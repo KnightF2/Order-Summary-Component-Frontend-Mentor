@@ -1,0 +1,130 @@
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+html {
+  font-family: 'Red Hat Display', sans-serif;;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  height: 100vh;
+  background-color: var(--Pale-blue);
+}
+p {
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+
+.card-container {
+  width: 85%;
+  max-width: 319px;
+  height: 100%;
+  max-height: 452px;
+  padding-bottom: 12px;
+  background-color: var(--Very-pale-blue);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.card-header {
+  width: 100%;
+  height: 30%;
+  background: url('./images/illustration-hero.svg') no-repeat center/cover;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-body__title {
+  margin-top: 25px;
+  font-weight: 900;
+}
+.card-body__intro {
+  font-size: 14px;
+  font-weight: 500;
+  width: 75%;
+  margin: 0;
+  color: var(--Desaturated-blue);
+  text-align: center;
+}
+.card-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.card-footer p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--Desaturated-blue);
+}
+.card-footer a {
+  font-size: 13px;
+  font-weight: 700;
+  align-self: center;
+  color: var(--Bright-blue);
+}
+.card-footer__icon{
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+  align-self: center;
+  background: url('/images/icon-music.svg') no-repeat center/ contain;
+}
+.card-footer .card-footer__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+.card-footer__info p:first-child {
+  font-weight: 900;
+  color: black
+}
+.primary-button {
+  padding: 12px 40px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--Very-pale-blue);
+  background-color: var(--Bright-blue);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.primary-button:hover{
+  opacity: 0.5;
+}
+.secondary-button {
+  margin-bottom: 12px;
+  font-size: 12px;
+  font-weight: 900;
+  color: var(--Desaturated-blue);
+  background-color: var(--Very-pale-blue);
+  border: none;
+  cursor: pointer;
+}
+.secondary-button:hover{
+  color: rgb(36, 35, 35);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
