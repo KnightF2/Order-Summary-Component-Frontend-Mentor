@@ -42,7 +42,10 @@ main {
 .card-header {
   width: 100%;
   height: 30%;
-  background: url('./images/illustration-hero.svg') no-repeat center/cover;
+}
+.card-header img {
+  width: 100%;
+  height: 100%;
 }
 .card-body {
   display: flex;
@@ -85,7 +88,6 @@ main {
   width: 40px;
   height: 40px;
   align-self: center;
-  background: url('/images/icon-music.svg') no-repeat center/ contain;
 }
 .card-footer .card-footer__info {
   display: flex;
@@ -110,6 +112,8 @@ main {
 }
 .primary-button:hover{
   opacity: 0.5;
+  transition-property: opacity;
+  transition-duration: 0.5s;
 }
 .secondary-button {
   margin-bottom: 12px;
@@ -122,6 +126,8 @@ main {
 }
 .secondary-button:hover{
   color: rgb(36, 35, 35);
+  transition-property: color;
+  transition-duration: 0.5s;
 }
 
 footer {
