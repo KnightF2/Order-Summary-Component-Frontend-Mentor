@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/fermendoza18/Order-Summary-Component-Frontend-Mentor)
-- Live Site URL: [Live site URL here](https://fermendoza18.github.io/Order-Summary-Component-Frontend-Mentor/)
+- Solution URL: [Solution URL here](https://github.com/nimrodcode/Order-Summary-Component-Frontend-Mentor)
+- Live Site URL: [Live site URL here](https://nimrodcode.github.io/Order-Summary-Component-Frontend-Mentor/)
 
 ## My process
 
